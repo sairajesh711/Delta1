@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Delta3</string>
+    <string name="welcome">Welcome</string>
+    <string name="remember_every_click_counts">Click Here Remember every click counts!</string>
+    <string name="reset">Reset</string>
+    <string-array name="colorcodes">
+        <item>#3498db</item>
+        <item>#02ff6d</item>
+        <item>#9b59b6</item>
+        <item>#f1c40f</item>
+        <item>#1abc9c</item>
+        <item>#f40626</item>
+        <item>#37af0b</item>
+        <item>#c60aaa</item>
+        <item>#2ecca9</item>
+        <item>#752ecc</item>
+        <item>#1f0d63</item>
+        <item>#14f710</item>
+        <item>#2ecc53</item>
+        <item>#fce308</item>
+        <item>#050e01</item>
+        <item>#9ecc2e</item>
+        <item>#a77d0d</item>
+        <item>#cc712e</item>
+        <item>#f1c209</item>
+        <item>#86f109</item>
+        <item>#f11616</item>
+        <item>#a20ced</item>
+    </string-array>
+
+</resources>

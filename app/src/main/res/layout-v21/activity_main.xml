@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sairajesh.delta3.MainActivity"
+    android:id="@+id/Layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome"
+        android:id="@+id/Text"
+        android:height="100dp"
+        android:background="@color/abc_search_url_text_selected"
+        android:textColor="#3af207"
+        android:width="150dp"
+        android:textSize="35sp"
+        android:layout_above="@+id/Clickbutton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_every_click_counts"
+        android:id="@+id/Clickbutton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        android:ellipsize="none"
+        android:elegantTextHeight="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:id="@+id/Reset"
+        android:background="@color/accent_material_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+</RelativeLayout>
